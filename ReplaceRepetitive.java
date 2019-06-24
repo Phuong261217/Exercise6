@@ -12,6 +12,7 @@ public class ReplaceRepetitive {
 		while(m.find()) {
 			a = a.replaceAll(m.group(), "REPEAT");
 			a = a.replaceAll("\\s+"," ")
+
 		}
 		return a;
 	}
